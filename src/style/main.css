@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    background-image: linear-gradient(to right, #232526, #414345);
+    color: #fdfefe;
+}

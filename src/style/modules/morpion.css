@@ -1,0 +1,37 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 0;
+}
+
+#board {
+    width: 180px;
+    height: 180px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#board > button {
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+}
+
+#winner-alert > div {
+    position: absolute;
+
+    right: 1em;
+    top: 1em;
+
+    background-color: #2ecc71;
+}
